@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #16cfe4;
+    margin: 0;
+    padding: 20px;
+}
+
+.resume {
+    display: flex;
+    max-width: 900px;
+    margin: auto;
+    background: #b5ba1a;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.left {
+    width: 30%;
+    background: #2c3e50;
+    padding: 20px;
+    color: #fff;
+}
+
+.right {
+    width: 70%;
+    padding: 20px;
+}
+
+.profile-img {
+    width: 100%;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #2c3e50;
+}
+
+.left h2,
+.left h3 {
+    color: #fff;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.role {
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul li {
+    margin-bottom: 8px;
+}
